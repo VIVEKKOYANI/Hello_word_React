@@ -28,7 +28,7 @@ class TodoList extends React.Component{
 
     updateTask(newValue){
         this.setState({
-            currentTask:newValue       
+            currentTask:newValue.target.value       
         })
     }
 
